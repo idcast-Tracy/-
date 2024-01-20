@@ -10,7 +10,7 @@ import os
 # os.chdir(r'C:\Users\Tracy\Desktop\2024寒假\科研\01.18Python-streamlit') # 设定文件路径
 
 # 设置页面配置
-st.set_page_config(page_title="知秋的网站", page_icon="⭐", layout="wide")
+st.set_page_config(page_title="魔法学院", page_icon="⭐", layout="wide")
 
 # 通过 css样式隐藏主菜单和页脚
 hide_menu = '''
@@ -22,12 +22,12 @@ st.markdown(hide_menu,unsafe_allow_html=True)
 
 # 配置左侧菜单项
 with st.sidebar:
-    choose = option_menu("知秋的网站", ["介绍", "图书", "数据可视化","音乐/视频"],
+    choose = option_menu("魔法学院", ["介绍", "任务", "数据可视化","音乐/视频"],
                          icons=['house', 'book-half', 'bar-chart', "boombox-fill"],
                          menu_icon="bullseye", default_index=0)
 
 if choose == "介绍":
-    st.title("欢迎来到知秋的网站")
+    st.title("欢迎来到魔法学院")
     st.write("这是一个演示 Streamlit 页面配置的示例。")
 
 elif choose == "图书":
@@ -73,12 +73,12 @@ elif choose == "音乐/视频":
                           icons=["file-music-fill", "badge-vo-fill"],
                           menu_icon="cast", default_index=0, orientation="horizontal")
     if selecte == "音乐":
-        st.write("1. 倩女幽魂")
-        # st.audio("./music/倩女幽魂.mp3")
-        st.write("2. 十年")
-        # st.audio("./music/十年.mp3")
-        st.write("3. 天路")
-        # st.audio("./music/天路.mp3")
+        st.write("1. Dream it possible")
+        # st.audio("Dream It Possible.mp3")
+        st.write("2. 离别开出花")
+        # st.audio("离别开出花.mp3")
+        st.write("3. 明天，你好")
+        # st.audio("明天,你好.mp3")
 
     elif selecte == "视频":
         st.video("Width.mp4")
