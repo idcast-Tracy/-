@@ -81,4 +81,4 @@ elif choose == "音乐/视频":
         # st.audio("./music/天路.mp3")
 
     elif selecte == "视频":
-        # st.video("S4.原型演示(视频)-赛题08-可视化AI模型平台-视界AI.mp4")
+        st.video("Width.mp4")
