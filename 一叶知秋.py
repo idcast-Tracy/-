@@ -74,11 +74,11 @@ elif choose == "音乐/视频":
                           menu_icon="cast", default_index=0, orientation="horizontal")
     if selecte == "音乐":
         st.write("1. Dream it possible")
-        # st.audio("Dream It Possible.mp3")
+        st.audio("Dream It Possible.mp3")
         st.write("2. 离别开出花")
-        # st.audio("离别开出花.mp3")
+        st.audio("离别开出花.mp3")
         st.write("3. 明天，你好")
-        # st.audio("明天,你好.mp3")
+        st.audio("明天,你好.mp3")
 
     elif selecte == "视频":
         st.video("Width.mp4")
