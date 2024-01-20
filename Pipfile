@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 streamlit-option-menu = "*"
 matplotlib = "*"
+plotly = "*"
 
 [dev-packages]
 
