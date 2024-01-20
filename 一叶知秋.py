@@ -5,7 +5,6 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from PIL import Image
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 import os
 # os.chdir(r'C:\Users\Tracy\Desktop\2024寒假\科研\01.18Python-streamlit') # 设定文件路径
