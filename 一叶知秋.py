@@ -30,7 +30,7 @@ if choose == "介绍":
     st.title("欢迎来到魔法学院")
     st.write("这是一个演示 Streamlit 页面配置的示例。")
 
-elif choose == "图书":
+elif choose == "任务":
     # 创建单独的容器，图片放入此容器中
     with st.container():
         # 将布局分为四列
